@@ -1,0 +1,16 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "geci",
+      "details": "Lorem ipsum",
+      "complete": false
+    },
+    {
+      "id": 2,
+      "title": "fasz",
+      "details": "Lorem ipsum",
+      "complete": false
+    }
+  ]
+}
