@@ -1,5 +1,6 @@
 <template>
   <SearchBar3 />
+  tesztlófasz
 
   <!-- <div class="home">
     <div v-if="items.length">
