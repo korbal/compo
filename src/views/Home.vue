@@ -1,5 +1,6 @@
 <template>
   <SearchBar3 />
+
   <!-- <div class="home">
     <div v-if="items.length">
       <div v-for="item in items" :key="item.id">
