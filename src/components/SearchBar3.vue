@@ -18,7 +18,7 @@
     >
       <!-- <li v-bind:innerHTML="searchTerm">Filter for an item</li> -->
 
-      <li v-for="item in filteredItems" :key="item.id">
+      <li v-for="item in filteredItems" :key="item.id" class="li">
         <router-link
           :to="{
             name: 'ItemDetails',
@@ -45,7 +45,8 @@ export default {
       endpoint_url:
         "https://script.google.com/macros/s/AKfycbyMniVCYDyakkM1Qo3kHh2athgwnzESL1P0GlXz67uR4MJ6u2A/exec",
       items: [],
-      searchTerm: ""
+      searchTerm: "",
+  
     };
   },
   methods: {
@@ -62,7 +63,11 @@ export default {
     },
     openDescription(e) {
       console.log(this.$refs.suggestions);
+    },
+    toggleVisibility(){
+      
     }
+    
   },
   computed: {
     filteredItems() {
@@ -74,6 +79,7 @@ export default {
     }
   },
   mounted() {
+    
     this.$refs.inputbox.focus();
     fetch(this.endpoint_url)
       .then(response => response.json())
@@ -83,4 +89,10 @@ export default {
 </script>
 
 <style>
+.li a {
+  text-decoration: none;
+}
+.li:hover {
+  background: red;
+}
 </style>
