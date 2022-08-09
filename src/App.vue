@@ -7,11 +7,25 @@
   <router-view />
 </template>
 
-
-
-
-
 <style>
+
+
+
+html {
+  box-sizing: border-box;
+  background: green;
+  font-family: "helvetica neue";
+  font-size: 20px;
+  font-weight: 200;
+  
+  background-image: url('./assets/carrots_small.jpg');
+  background-size: cover;
+  max-height: 100vh;
+  height: 100vh;
+  
+}
+
+
 
 
 body {

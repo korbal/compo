@@ -1,7 +1,9 @@
 <template>
+  
   <SearchBar3 />
 
-  <!-- <div class="home">
+
+<!-- <div class="home">
     <div v-if="items.length">
       <div v-for="item in items" :key="item.id">
         <p>{{ item.name }}</p>
@@ -16,9 +18,10 @@ import SearchBar from "../components/SearchBar.vue";
 import SearchBar2 from "../components/SearchBar2.vue";
 import SearchBar3 from "../components/SearchBar3.vue";
 
+
 export default {
   name: "Home",
-  components: { SearchBar, SearchBar2, SearchBar3 },
+  components: { SearchBar, SearchBar2, SearchBar3},
   data() {
     return {
       // endpoint_url:
@@ -36,16 +39,7 @@ export default {
 };
 </script>
 <style>
-html {
-  box-sizing: border-box;
-  background: lightgreen;
-  font-family: "helvetica neue";
-  font-size: 20px;
-  font-weight: 200;
-  
-  background-image: url('../assets/carrots_small.jpg');
-  background-size:auto;  
-}
+
 
 
 *,
