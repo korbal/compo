@@ -12,19 +12,24 @@
 
 
 <style>
+
+
 body {
   /* background: #f2f2f2; */
   font-family: Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* max-width: 600px; */
+  /* max-width: 600px;  */
   color: #2c3e50;
   margin: 60px auto;
   width: 300px;
+  
+  /* background-image: url('./assets/carrots.jpg'); */
+  
 }
 
 #nav {
-  padding: 30px;
+  padding: 60px;
 }
 
 #nav a {
@@ -38,9 +43,12 @@ body {
 }
 
 #app {
+  
 }
 
 * {
   box-sizing: border-box;
 }
 </style>
+
+

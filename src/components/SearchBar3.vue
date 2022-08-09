@@ -93,6 +93,6 @@ export default {
   text-decoration: none;
 }
 .li:hover {
-  background: red;
+  background: white;
 }
 </style>

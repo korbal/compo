@@ -42,7 +42,11 @@ html {
   font-family: "helvetica neue";
   font-size: 20px;
   font-weight: 200;
+  
+  background-image: url('../assets/carrots_small.jpg');
+  background-size:auto;  
 }
+
 
 *,
 *:before,
