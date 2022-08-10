@@ -15,6 +15,6 @@ import VueGtag from "vue-gtag";
 // });
 
 createApp(App)
-  .use(VueGtag, { config: { id: "G-LX4H5N8Z0Y" } }).
-.use(router)
+  .use(VueGtag, { config: { id: "G-LX4H5N8Z0Y" } })
+  .use(router)
   .mount('#app')
