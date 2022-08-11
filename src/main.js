@@ -5,7 +5,9 @@ import router from './router'
 
 //added on 2022-08-10 vue-gtag: https://matteo-gabriele.gitbook.io/vue-gtag/
 
-import VueGtag from "vue-gtag";
+//import VueGtag from "vue-gtag";
+
+createApp(App).use(router).mount('#app')
 
 
 // // Configuration VueAnalytics
@@ -14,7 +16,3 @@ import VueGtag from "vue-gtag";
 //   router
 // });
 
-createApp(App)
-  .use(VueGtag, { config: { id: "G-LX4H5N8Z0Y" } })
-  .use(router)
-  .mount('#app')
