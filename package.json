@@ -13,6 +13,7 @@
     "gh-pages": "^4.0.0",
     "json-server": "^0.16.3",
     "vue": "^3.0.0",
+    "vue-gtag": "^2.0.1",
     "vue-router": "^4.0.0-0",
     "vue-tag": "^1.0.0"
   },
