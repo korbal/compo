@@ -7,7 +7,7 @@
     "build": "vue-cli-service build",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://korbal.github.io/compo",
+  "homepage": "http://canicompostit.com",
   "dependencies": {
     "core-js": "^3.6.5",
     "gh-pages": "^4.0.0",
