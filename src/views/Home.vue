@@ -17,11 +17,13 @@
 import SearchBar from "../components/SearchBar.vue";
 import SearchBar2 from "../components/SearchBar2.vue";
 import SearchBar3 from "../components/SearchBar3.vue";
+import SearchBar4 from "../components/SearchBar4.vue";
+
 
 
 export default {
   name: "Home",
-  components: { SearchBar, SearchBar2, SearchBar3},
+  components: { SearchBar, SearchBar2, SearchBar3, SearchBar4 },
   data() {
     return {
       // endpoint_url:
@@ -77,6 +79,7 @@ input.search {
   margin: 0;
   padding: 0;
   position: relative;
+  
   /*perspective: 20px;*/
 }
 

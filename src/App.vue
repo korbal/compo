@@ -1,4 +1,5 @@
 <template>
+<div class="logo"><img src="./assets/cici-logo-transparent.png" alt=""></div>
   <div id="nav">
     
     <router-link to="/">Home</router-link>
@@ -24,6 +25,7 @@ html {
   background-size: cover;
   max-height: 100vh;
   height: 100vh;
+ 
   
 }
 
@@ -43,8 +45,12 @@ body {
   
 }
 
+#logo {
+}
+
 #nav {
-  padding: 60px;
+  padding: 10px;
+  
 }
 
 #nav a {

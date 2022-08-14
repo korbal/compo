@@ -4,7 +4,7 @@
       type="text"
       class="search"
       ref="inputbox"
-      placeholder="Compostable?"
+      placeholder="start typing..."
       @keyup="updateFilter"
       @change="updateFilter"
       v-model="searchTerm"
