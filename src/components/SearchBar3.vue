@@ -15,11 +15,12 @@
       ref="suggestions"
       @mousedown="openDescription"
       v-if="searchTerm"
+
     >
       <!-- <li v-bind:innerHTML="searchTerm">Filter for an item</li> -->
 
-      <li v-for="item in filteredItems" :key="item.id" class="li">
-        <router-link
+      <li  v-for="item in filteredItems" :key="item.id" class="li">
+        <router-link 
           :to="{
             name: 'ItemDetails',
             params: {
@@ -91,6 +92,11 @@ export default {
 <style>
 .li a {
   text-decoration: none;
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 1;
+  justify-content: center;
+ 
 }
 .li:hover {
   background: white;
