@@ -8,10 +8,9 @@ npm run build
 
 # navigate into the build output directory
 cd dist
-echo "canicompostit.com" > CNAME
 
 # if you are deploying to a custom domain
-# echo 'www.example.com' > CNAME
+echo 'canicompostit.com' > CNAME
 
 git init
 git add -A
@@ -22,5 +21,8 @@ git commit -m "deploy"
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
 git push -f git@github.com:korbal/compo.git main:gh-pages
+
+# pushing to main at the same time to keep the deployment and repo in sync
+#git push origin main
 
 cd -
