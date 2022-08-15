@@ -4,7 +4,7 @@
       type="text"
       class="search"
       ref="inputbox"
-      placeholder="start typing..."
+      placeholder="start typing to find out..."
       @keyup="updateFilter"
       @change="updateFilter"
       v-model="searchTerm"

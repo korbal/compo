@@ -7,11 +7,18 @@
   </h2>
   <p>{{ description }}</p>
   <img :src="image" alt="" />
+  <Footer />
 </template>
 
 <script>
+
+import SearchBar3 from "../components/SearchBar3.vue";
+import Footer from "../components/Footer.vue";
+
 export default {
+  
   props: ["id", "name", "isCompostable", "description", "image"],
+  components: {SearchBar3, Footer },
   data() {
     return {
       //id: this.$route.params.id,

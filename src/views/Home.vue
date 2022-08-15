@@ -1,6 +1,7 @@
 <template>
   
   <SearchBar3 />
+  <Footer />
 
 
 <!-- <div class="home">
@@ -18,12 +19,14 @@ import SearchBar from "../components/SearchBar.vue";
 import SearchBar2 from "../components/SearchBar2.vue";
 import SearchBar3 from "../components/SearchBar3.vue";
 import SearchBar4 from "../components/SearchBar4.vue";
+import Footer from "../components/Footer.vue";
+
 
 
 
 export default {
   name: "Home",
-  components: { SearchBar, SearchBar2, SearchBar3, SearchBar4 },
+  components: { SearchBar, SearchBar2, SearchBar3, SearchBar4, Footer },
   data() {
     return {
       // endpoint_url:
@@ -70,8 +73,8 @@ input.search {
   position: relative;
   top: 10px;
   z-index: 2;
-  border-radius: 5px;
-  font-size: 40px;
+  border-radius: 50px;
+  font-size: 22px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.12), inset 0 0 2px rgba(0, 0, 0, 0.19);
 }
 
@@ -94,6 +97,7 @@ input.search {
   display: flex;
   justify-content: space-between;
   text-transform: capitalize;
+  border-radius: 30px;
 }
 
 .suggestions li:nth-child(even) {
