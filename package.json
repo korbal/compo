@@ -8,7 +8,7 @@
     "deploy": "git add . && git commit -m 'deploy' && git push origin main && deploy.sh && gh-pages -d dist",
     "backup": "git add . && git commit -m 'backup' && git push origin main"
   },
-  "homepage": "http://canicompostit.com",
+  "homepage": "https://korbal.github.io/compo",
   "dependencies": {
     "core-js": "^3.6.5",
     "gh-pages": "^4.0.0",
